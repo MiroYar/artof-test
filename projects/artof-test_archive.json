@@ -1,0 +1,69 @@
+{
+    "projectName": "artof-test",
+    "root": {
+        "src": "./src/artof-test/",
+        "build": "./build/artof-test/"
+    },
+    "files": {
+        "png": [
+            {
+                "from": "img/banner/b_img001.png",
+                "to": "img/banner/"
+            },
+            {
+                "from": "img/banner/b_img002.png",
+                "to": "img/banner/"
+            },
+            {
+                "from": "img/banner/b_img003.png",
+                "to": "img/banner/"
+            },
+            {
+                "from": "img/banner/b_img004.png",
+                "to": "img/banner/"
+            },
+            {
+                "from": "img/banner/b_img005.png",
+                "to": "img/banner/"
+            },
+            {
+                "from": "img/slider/img001.png",
+                "to": "img/slider/"
+            },
+            {
+                "from": "img/slider/img002.png",
+                "to": "img/slider/"
+            },
+            {
+                "from": "img/slider/img003.png",
+                "to": "img/slider/"
+            }
+        ],
+        "svg": [
+            {
+                "from": "img/logo.svg",
+                "to": "img/"
+            }
+        ],
+        "pug": [
+            {
+                "from": "index.pug",
+                "to": ""
+            }
+        ],
+        "js": [
+            {
+                "from": [
+                    "js/index.js"
+                ],
+                "to": "js/"
+            }
+        ],
+        "sass": [
+            {
+                "from": "sass/index.scss",
+                "to": "css/"
+            }
+        ]
+    }
+}
