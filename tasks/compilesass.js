@@ -15,7 +15,7 @@ function compileFile(from, to, file, isDev, isPortfol){
     // Компиляция SASS в один CSS файл с возможным сжатием.
     .pipe(
         sass({
-            outputStyle: isPortfol ? 'expanded' : 'compressed'
+            // outputStyle: isPortfol ? 'expanded' : 'compressed'
         })
         .on('error', sass.logError)
     )
